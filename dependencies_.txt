@@ -1,0 +1,14 @@
+import 'package:flutter/material.dart';
+import 'home_screen.dart';
+
+void main() => runApp(MaterialApp(home: HomeScreen()));
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: any
+  firebase_auth: any
+  cloud_firestore: any
+  google_maps_flutter: any
+  geolocator: any
+  razorpay_flutter: any
